@@ -3,4 +3,6 @@ var recipes = {
   'lunch': 'taquitos',
   'dinner': 'enchiladas'
 }
-function updateObjectWithKeyAndValue(obj, key, value)
+function updateObjectWithKeyAndValue(object, key, value): {
+  return Object.assign
+}
